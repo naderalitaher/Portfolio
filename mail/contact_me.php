@@ -1,8 +1,8 @@
 <?php
 // Check for empty fields
-if(empty($_POST['Nom'])  		||
-   empty($_POST['Adresse email']) 		||
-   empty($_POST['Numéro de téléphone']) 		||
+if(empty($_POST['name'])  		||
+   empty($_POST['email']) 		||
+   empty($_POST['phone']) 		||
    empty($_POST['message'])	||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
@@ -10,8 +10,8 @@ if(empty($_POST['Nom'])  		||
 	return false;
    }
 	
-$Nom = strip_tags(htmlspecialchars($_POST['name']));
-$Adresse email= strip_tags(htmlspecialchars($_POST['Adresse email']));
+$name = strip_tags(htmlspecialchars($_POST['name']));
+$email_address= strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 	
