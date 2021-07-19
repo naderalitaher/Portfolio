@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+	<defs>
+		<style>.cls-1{fill:#ccc;}.cls-2{fill:#aaa;}.cls-3{fill:#fff;}.cls-4{fill:none;stroke:#ccc;stroke-linecap:square;stroke-miterlimit:10;stroke-width:1.602px;}.cls-5{fill:#909090;}.cls-6{fill:#0066CC;}</style>
+	</defs>
+	<title>ZeichenflÃ¤che 3</title>
+	<g id="Ebene_2" data-name="Ebene 2">
+		<path class="cls-1" d="M119.186,127.7H68.15a1,1,0,0,1-1-1v-61.8a1,1,0,0,1,1-1h51.036a1,1,0,0,1,1,1v61.8A1,1,0,0,1,119.186,127.7Z"/>
+		<path class="cls-2" d="M110.793,136.094H59.757a1,1,0,0,1-1-1V73.3a1,1,0,0,1,1-1h51.036a1,1,0,0,1,1,1v61.8A1,1,0,0,1,110.793,136.094Z"/>
+		<rect class="cls-3" x="61.615" y="74.697" width="47.781" height="58.999"/>
+		<path class="cls-4" d="M102.36,120.529H68.65m33.71,5.865H68.65m33.71-12.3H68.65m33.71-6.432H68.65m33.71-6.432H68.65m33.71-6.425H68.65m33.71-6.432H68.65m33.71-6.43H68.65"/>
+		<rect class="cls-5" x="107.318" y="100.537" width="6.58" height="2.919"/>
+		<rect class="cls-5" x="113.835" y="98.388" width="27.407" height="7.211"/>
+		<path class="cls-5" d="M73.351,101.385A17.361,17.361,0,1,0,90.715,84.022a17.361,17.361,0,0,0-17.363,17.363"/>
+		<path class="cls-3" d="M77.014,101.385a13.7,13.7,0,1,0,13.7-13.706,13.7,13.7,0,0,0-13.7,13.706"/>
+		<polygon class="cls-6" points="89.313 106.349 92.117 106.349 93.161 92.367 88.269 92.367 89.313 106.349"/>
+		<rect class="cls-6" x="89.313" y="107.601" width="2.804" height="2.794"/>
+	</g>
+</svg>

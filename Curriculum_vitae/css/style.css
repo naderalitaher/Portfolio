@@ -1,0 +1,120 @@
+body
+{
+    background-image: url(../img/shahadat-rahman-BfrQnKBulYQ-unsplash.png);
+}
+img
+
+{
+        float: right;
+      
+        height:200px; 
+        border-radius:solid wheat 12px ; 
+        width:200px;
+         height:200px; 
+         border: solid 6px wheat; 
+         background:wheat; 
+         -webkit-border-radius:100px;
+          -moz-border-radius:100px;
+           -o-border-radius:100px;
+            border-radius:100px;
+
+        
+        
+}
+
+.conteneur {
+        width: 80%;
+        min-height:420px;
+        margin: 0 auto;
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       flex-direction: row ;
+
+   }
+     
+.head{
+    font-family: 'Poiret One', cursive;
+    margin-top: 75px;
+    font-size: 35px;
+    color:  wheat;
+    text-align: center;
+  
+}
+.section1{
+   
+    width: 400px ;
+    min-height: 420px;
+    color: wheat;
+    
+   font-size: 20px;
+}
+ .section2{
+   
+    width: 400px ;
+    min-height: 400px;
+    color:wheat;
+    font-size: 20px;
+}
+   
+   
+ }
+
+ .section3{
+    
+    width: 400px ;
+    min-height: 400px;
+    color:white;
+    font-size: 20px;
+}
+
+ 
+ .section4{
+   
+    width: 400px ;
+    min-height: 180px;
+    color:wheat;
+   
+    font-size: 20px;
+    
+ }
+
+
+header{
+    
+    position:fixed;
+    min-height:45px;
+    width: 100%;;
+    top:0px;
+    left: 0px;
+    margin: 0 auto;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+
+
+footer{
+
+    position:fixed;
+    height:30px;
+    width:100vw;
+    bottom:0px;
+    left: 0px;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+
+}
+@media all and (max-width:800px) {
+    body
+{
+    background-image: url(../img/shahadat-rahman-BfrQnKBulYQ-unsplash.png);
+}
+}

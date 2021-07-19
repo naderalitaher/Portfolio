@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.vp-logo {
+    margin-bottom: 0;
+    font-family: "long Cang", cursive;
+
+}
+
+.vp-logo a {
+
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 3rem;
+}
+
+.vp-logo i {
+    color: #f1c40f !important;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+
+}
+
+header {
+
+    background: #333;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    line-height: 1.8rem;
+}
+
+header label {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+
+header a {
+    color: white;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Contenu principal */
+
+body>div>main {
+    flex-grow: 1;
+    background-color: #f1c40f;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .75rem;
+    align-content: flex-start;
+}
+
+body>div>main>article {
+    background-color: #3a3d45;
+    margin: .75rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    width: calc(100% / 3 - 2 * .75rem - .001rem);
+    color: #fff;
+}
+
+body>div>main>article>img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+body>div>main>article>img>:hover {
+    background: #f1c40f;
+    cursor: pointer;
+}
+
+text-hint>article-author body>div>main>article>img+article-author+text-hint {
+    margin: 1.5rem 0 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+
+@media screen and (orientation: portrait) {
+    body>div>main>article {
+        width: 100%;
+    }
+}
+
+/* Footer */
+
+body>footer {
+    display: flex;
+    background-color: #24262d;
+    font-size: .9em;
+    flex-wrap: wrap;
+}
+
+body>footer>a,
+body>footer>span {
+    color: #949ba2;
+    padding: 1.5rem;
+}
+
+body>footer>a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+body>footer>a:hover {
+    color: #fff;
+}
+
+body>footer>a>i+span {
+    margin-left: 1rem;
+}
+
+body>footer>span:last-child {
+    margin-left: auto;
+}
+
+@media screen and (orientation: portrait) {
+    body>footer {
+        justify-content: center;
+    }
+
+    body>footer>span:last-child {
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+    }
+}
+
+
+  

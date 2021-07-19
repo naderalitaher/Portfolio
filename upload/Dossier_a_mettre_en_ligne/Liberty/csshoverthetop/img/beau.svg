@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+	<defs>
+		<style>.cls-1{fill:#ccc;}.cls-2{fill:#aaa;}.cls-3{fill:#fff;}.cls-4{fill:#0066CC;}.cls-5{fill:#909090;}</style>
+	</defs>
+	<title>ZeichenflÃ¤che 3 Kopie</title>
+	<g id="Ebene_2" data-name="Ebene 2">
+		<path class="cls-1" d="M137.234,122.346H70.5a1,1,0,0,1-1-1V70.924a1,1,0,0,1,1-1h66.737a1,1,0,0,1,1,1v50.422A1,1,0,0,1,137.234,122.346Z"/>
+		<path class="cls-2" d="M129.5,130.076H62.766a1,1,0,0,1-1-1V78.654a1,1,0,0,1,1-1H129.5a1,1,0,0,1,1,1v50.422A1,1,0,0,1,129.5,130.076Z"/>
+		<rect class="cls-3" x="64.424" y="80.299" width="63.422" height="47.132"/>
+		<path class="cls-4" d="M80.54,99.524a6.556,6.556,0,1,1,6.587-6.555,6.579,6.579,0,0,1-6.587,6.555"/>
+		<path class="cls-5" d="M113.879,92.213,93.27,112.725l-7.035-7L64.424,127.431h63.422V106.109Z"/>
+	</g>
+</svg>

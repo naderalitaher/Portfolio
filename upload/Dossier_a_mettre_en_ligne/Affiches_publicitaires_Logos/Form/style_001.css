@@ -1,0 +1,17 @@
+body {
+  background-color: #f7f7f7;
+  font-family: 'Open Sans';
+  centerblock
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span {
+  display: block;
+  text-align: center;
+}
